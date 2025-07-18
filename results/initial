@@ -1,0 +1,21 @@
+                  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS       Model
+0            TorchScript       ✅       10.5               0.6082                   48.04  20.82  yolo11n.pt
+0                   ONNX       ✅       10.2               0.6082                   38.27  26.13  yolo11n.pt
+0               OpenVINO       ✅       10.4               0.6090                   16.68  59.95  yolo11n.pt
+0  TensorFlow SavedModel       ✅       25.9               0.6082                   82.51  12.12  yolo11n.pt
+0        TensorFlow Lite       ✅       10.3               0.6082                   60.80  16.45  yolo11n.pt
+0            TorchScript       ✅       77.3               0.7643                  203.37   4.92  yolo11m.pt
+0                   ONNX       ✅       76.9               0.7643                  223.02   4.48  yolo11m.pt
+0               OpenVINO       ✅       77.1               0.7658                   92.13  10.85  yolo11m.pt
+0  TensorFlow SavedModel       ✅      192.7               0.7643                  233.99   4.27  yolo11m.pt
+0        TensorFlow Lite       ✅       77.0               0.7643                  544.46   1.84  yolo11m.pt
+0            TorchScript       ✅       10.6               0.6880                   77.75  12.86  yolo12n.pt
+0                   ONNX       ✅       10.2               0.6880                   52.70  18.98  yolo12n.pt
+0               OpenVINO       ✅       10.4               0.6864                   17.70  56.49  yolo12n.pt
+0  TensorFlow SavedModel       ✅       26.0               0.6880                  111.72   8.95  yolo12n.pt
+0        TensorFlow Lite       ✅       10.3               0.6880                   79.56  12.57  yolo12n.pt
+0            TorchScript       ✅       77.7               0.7880                  220.33   4.54  yolo12m.pt
+0                   ONNX       ✅       77.2               0.7880                  243.90   4.10  yolo12m.pt
+0               OpenVINO       ✅       77.5               0.7880                  100.17   9.98  yolo12m.pt
+0  TensorFlow SavedModel       ✅      193.9               0.7880                  449.63   2.22  yolo12m.pt
+0        TensorFlow Lite       ✅       77.5               0.7880                  641.37   1.56  yolo12m.pt
