@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "ultralytics>=8.3.168",
+    "ultralytics[export]>=8.3.168",
 ]
 
 [dependency-groups]
